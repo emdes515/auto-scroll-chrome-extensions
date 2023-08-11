@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"name": "Auto Scroll",
+	"description": "This is a simple extensions to Chrome, you can use it to scroll long webpage like Facebooks's fanpage or Twitter",
+	"version": "1.0.1",
+	"author": "Mateusz Jankowski",
+	"icons": {
+		"16": "./images/autoScrollLogo16x16.png",
+		"32": "./images/autoScrollLogo32x32.png",
+		"48": "./images/autoScrollLogo48x48.png",
+		"128": "./images/autoScrollLogo128x128.png"
+	},
+	"action": {
+		"default_title": "Auto Scroll",
+		"default_popup": "./index.html"
+	}
+}

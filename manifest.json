@@ -12,6 +12,6 @@
 	},
 	"action": {
 		"default_title": "Auto Scroll",
-		"default_popup": "./index.html"
+		"default_popup": "./src/popup.html"
 	}
 }

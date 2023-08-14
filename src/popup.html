@@ -6,8 +6,39 @@
     <title>Auto Scroll</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Auto Scroll</h1>
+    <div class="main">
+        <img  class="icon "alt="icon" src="../images/autoScrollLogo128x128.png"/>
+        <h1 class="title">Auto Scroll</h1>
+
+        <div class="scrollingOptions">
+            <div class="radioSpeedContainer">
+                <div class="radioSpeedElement">
+                    <input type="radio" name="speed" id="slowSpeed"/>
+                    <label for="slowSpeed">Slow</label>
+                </div>
+
+                <div class="radioSpeedElement">
+                    <input type="radio" name="speed" id="mediumSpeed"/>
+                    <label for="mediumSpeed">Medium </label>
+                </div>
+
+                <div class="radioSpeedElement">
+                    <input type="radio" name="speed" id="fastSpeed"/>
+                    <label for="fastSpeed">Fast</label>
+                </div>
+
+                <div class="radioSpeedElement">
+                    <input type="radio" name="speed" id="veryFast"/>
+                    <label for="veryFastSpeed">Very Fast</label>
+                </div>
+            </div>
+            <div class="startScrollingButton">
+                <button id="startScrollingButton">Start Scrolling</button>
+            </div>
+        </div>
+
+
+    </div>
 
     <script src="scroll.js"></script>
 </body>
